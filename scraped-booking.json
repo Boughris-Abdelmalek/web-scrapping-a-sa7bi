@@ -1,0 +1,26 @@
+{
+	"roomDetail": {
+		"hasRoomsWithDifferentPrivacyLevels": false,
+		"__typename": "",
+		"areaMeasurementUnit": "",
+		"property": {
+			"accommodationType": {
+				"__typename": "",
+				"id": 0,
+				"type": ""
+			},
+			"hasDesignatedSmokingArea": false,
+			"roomsDetails": null,
+			"highFloorStartsAt": 0,
+			"name": "Grand Hotel Francais",
+			"id": 50298,
+			"__typename": ""
+		},
+		"highlightsForAllRooms": null,
+		"categorizedFacilitiesForAllRooms": null
+	},
+	"reviewScores": {
+		"__typename": "",
+		"reviewScores": null
+	}
+}

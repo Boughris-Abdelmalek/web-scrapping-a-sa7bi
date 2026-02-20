@@ -21,22 +21,22 @@ type Data struct {
 }
 
 type RoomDetail struct {
-	HasRoomsWithDifferentPrivacyLevels bool                            `json:"hasRoomsWithDifferentPrivacyLevels"`
-	TypeName                           string                          `json:"__typename"`
-	AreaMeasurementUnit                string                          `json:"areaMeasurementUnit"`
-	Property                           Property                        `json:"property"`
-	HighlightsForAllRooms              []HighlightsForAllRooms         `json:"highlightsForAllRooms"`
-	CategorizedFacilitiesForAllRooms   []CategorizedFacilitiesForRoom  `json:"categorizedFacilitiesForAllRooms"`
+	HasRoomsWithDifferentPrivacyLevels bool                           `json:"hasRoomsWithDifferentPrivacyLevels"`
+	TypeName                           string                         `json:"__typename"`
+	AreaMeasurementUnit                string                         `json:"areaMeasurementUnit"`
+	Property                           Property                       `json:"property"`
+	HighlightsForAllRooms              []HighlightsForAllRooms        `json:"highlightsForAllRooms"`
+	CategorizedFacilitiesForAllRooms   []CategorizedFacilitiesForRoom `json:"categorizedFacilitiesForAllRooms"`
 }
 
 type Property struct {
-	AccommodationType       AccommodationType `json:"accommodationType"`
-	HasDesignatedSmokingArea bool             `json:"hasDesignatedSmokingArea"`
-	RoomsDetails            []RoomDetails     `json:"roomsDetails"`
-	HighFloorStartsAt       int              `json:"highFloorStartsAt"`
-	Name                    string           `json:"name"`
-	ID                      int              `json:"id"`
-	TypeName                string           `json:"__typename"`
+	AccommodationType        AccommodationType `json:"accommodationType"`
+	HasDesignatedSmokingArea bool              `json:"hasDesignatedSmokingArea"`
+	RoomsDetails             []RoomDetails     `json:"roomsDetails"`
+	HighFloorStartsAt        int               `json:"highFloorStartsAt"`
+	Name                     string            `json:"name"`
+	ID                       int               `json:"id"`
+	TypeName                 string            `json:"__typename"`
 }
 
 type AccommodationType struct {
@@ -46,22 +46,22 @@ type AccommodationType struct {
 }
 
 type RoomDetails struct {
-	RoomFloor                  []interface{}              `json:"roomFloor"`
-	BedConfigurations          []BedConfiguration         `json:"bedConfigurations"`
-	BathroomCount              int                        `json:"bathroomCount"`
-	CribsAvailableForFree      bool                       `json:"cribsAvailableForFree"`
-	Occupancy                  RoomOccupancy              `json:"occupancy"`
-	ApartmentRooms             []ApartmentRoom            `json:"apartmentRooms"`
-	IsSmoking                  bool                       `json:"isSmoking"`
-	RoomSizeM2                 float64                    `json:"roomSizeM2"`
-	RoomTypeID                 int                        `json:"roomTypeId"`
-	RoomPhotos                 []RoomPhoto                `json:"roomPhotos"`
-	BathroomFacilityAttributes BathroomFacilityAttributes `json:"bathroomFacilityAttributes"`
-	Translations               RoomTranslation            `json:"translations"`
-	IsBiggerThanAverageRoomInUfi bool                     `json:"isBiggerThanAverageRoomInUfi"`
-	TypeName                   string                     `json:"__typename"`
-	ID                         int                        `json:"id"`
-	PrivacyLevel               int                        `json:"privacyLevel"`
+	RoomFloor                    []interface{}              `json:"roomFloor"`
+	BedConfigurations            []BedConfiguration         `json:"bedConfigurations"`
+	BathroomCount                int                        `json:"bathroomCount"`
+	CribsAvailableForFree        bool                       `json:"cribsAvailableForFree"`
+	Occupancy                    RoomOccupancy              `json:"occupancy"`
+	ApartmentRooms               []ApartmentRoom            `json:"apartmentRooms"`
+	IsSmoking                    bool                       `json:"isSmoking"`
+	RoomSizeM2                   float64                    `json:"roomSizeM2"`
+	RoomTypeID                   int                        `json:"roomTypeId"`
+	RoomPhotos                   []RoomPhoto                `json:"roomPhotos"`
+	BathroomFacilityAttributes   BathroomFacilityAttributes `json:"bathroomFacilityAttributes"`
+	Translations                 RoomTranslation            `json:"translations"`
+	IsBiggerThanAverageRoomInUfi bool                       `json:"isBiggerThanAverageRoomInUfi"`
+	TypeName                     string                     `json:"__typename"`
+	ID                           int                        `json:"id"`
+	PrivacyLevel                 int                        `json:"privacyLevel"`
 }
 
 type BedConfiguration struct {
@@ -83,10 +83,10 @@ type BedTypeTranslation struct {
 }
 
 type RoomOccupancy struct {
-	MaxGuests    int    `json:"maxGuests"`
-	TypeName     string `json:"__typename"`
-	MaxChildren  int    `json:"maxChildren"`
-	MaxPersons   int    `json:"maxPersons"`
+	MaxGuests   int    `json:"maxGuests"`
+	TypeName    string `json:"__typename"`
+	MaxChildren int    `json:"maxChildren"`
+	MaxPersons  int    `json:"maxPersons"`
 }
 
 type ApartmentRoom struct {
@@ -140,7 +140,7 @@ type RoomHighlight struct {
 
 type CategorizedFacilitiesForRoom struct {
 	RoomID                int                      `json:"roomId"`
-	CategorizedFacilities []FacilitiesWithCategory  `json:"categorizedFacilities"`
+	CategorizedFacilities []FacilitiesWithCategory `json:"categorizedFacilities"`
 	TypeName              string                   `json:"__typename"`
 }
 
@@ -164,10 +164,10 @@ type ReviewScoresResult struct {
 }
 
 type ReviewScore struct {
-	TypeName     string   `json:"__typename"`
-	Name         string   `json:"name"`
-	Translation  *string  `json:"translation"`
-	Count        int      `json:"count"`
-	Value        float64  `json:"value"`
-	CustomerType string   `json:"customerType"`
+	TypeName     string  `json:"__typename"`
+	Name         string  `json:"name"`
+	Translation  *string `json:"translation"`
+	Count        int     `json:"count"`
+	Value        float64 `json:"value"`
+	CustomerType string  `json:"customerType"`
 }

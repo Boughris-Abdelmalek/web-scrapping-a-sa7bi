@@ -6,6 +6,8 @@ import (
 	"github.com/go-rod/rod/lib/launcher"
 	"net/url"
 	"os"
+	"regexp"
+	"strconv"
 	"time"
 )
 
@@ -42,16 +44,65 @@ func main() {
 
 	page.MustNavigate(pageUrl)
 
-	hotelName, err := getPlaceName(page)
-	if err != nil {
-		stdErr(err)
-		return
-	}
-
-	fmt.Printf("Hotel name: %s", hotelName)
+	// Uncomment after OK
+	//hotelID, err := extractHotelID(BookingLink)
+	//if err != nil {
+	//	stdErr(err)
+	//}
+	//
+	//hotelName, err := getPlaceName(page)
+	//if err != nil {
+	//	stdErr(err)
+	//	return
+	//}
+	//
+	//hotelDesc, err := getPlaceDescription(page)
+	//if err != nil {
+	//	stdErr(err)
+	//	return
+	//}
+	//
+	//bookingData := &booking.Data{
+	//	RoomDetail: booking.RoomDetail{
+	//		Property: booking.Property{
+	//			AccommodationType:        booking.AccommodationType{},
+	//			HasDesignatedSmokingArea: false,
+	//			RoomsDetails:             nil,
+	//			HighFloorStartsAt:        0,
+	//			Name:                     hotelName,
+	//			ID:                       hotelID,
+	//			TypeName:                 "",
+	//		},
+	//	},
+	//}
+	//res, err := json.MarshalIndent(bookingData, "", "\t")
+	//if err != nil {
+	//	stdErr(err)
+	//}
+	//
+	//if err := os.WriteFile("./scraped-booking.json", res, 0644); err != nil {
+	//	stdErr(err)
+	//}
+	//
+	//fmt.Printf("Hotel ID: %d", hotelID)
+	//fmt.Printf("Hotel name: %s", hotelName)
 	//fmt.Printf("Hotel description: %s", hotelDesc)
 
 	time.Sleep(time.Hour * 1)
+}
+
+func getPlaceDescription(page *rod.Page) (string, error) {
+	desc, err := page.Element("div.hp-description")
+	if err != nil {
+		return "", fmt.Errorf("failed to get hotel description: %w", err)
+	}
+
+	descText, err := desc.Text()
+	if err != nil {
+		return "", fmt.Errorf("failed to get hotel description text: %w", err)
+	}
+
+	return descText, nil
 }
 
 func getPlaceName(page *rod.Page) (string, error) {
@@ -66,6 +117,28 @@ func getPlaceName(page *rod.Page) (string, error) {
 	}
 
 	return h1Text, nil
+}
+
+var labelIDRegex = regexp.MustCompile(`hotel-(\d+)`)
+
+func extractHotelID(raw string) (int, error) {
+	u, err := url.Parse(raw)
+	if err != nil {
+		return 0, fmt.Errorf("parse url: %w", err)
+	}
+
+	label := u.Query().Get("label")
+	m := labelIDRegex.FindStringSubmatch(label)
+	if len(m) != 2 {
+		return 0, fmt.Errorf("id not found in label: %s", label)
+	}
+
+	idInt, err := strconv.Atoi(m[1])
+	if err != nil {
+		return 0, fmt.Errorf("id could not be parsed to int: %w", err)
+	}
+
+	return idInt, nil
 }
 
 func stdErr(err error) {
