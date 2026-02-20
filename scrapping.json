@@ -1,0 +1,2449 @@
+{
+    "extensions": {
+        "latency_insights": {
+            "RoomPageDesktopRDS": {
+                "start_time": 1771628652309,
+                "end_time": 1771628652440,
+                "duration_ms": 131
+            }
+        }
+    },
+    "data": {
+        "roomDetail": {
+            "hasRoomsWithDifferentPrivacyLevels": false,
+            "__typename": "RoomDetailPage",
+            "areaMeasurementUnit": "SQUARE_METER",
+            "property": {
+                "accommodationType": {
+                    "__typename": "PropertyType",
+                    "id": 204,
+                    "type": "HOTEL"
+                },
+                "hasDesignatedSmokingArea": false,
+                "roomsDetails": [
+                    {
+                        "roomFloor": [],
+                        "bedConfigurations": [
+                            {
+                                "beds": [
+                                    {
+                                        "__typename": "RDSBed",
+                                        "translation": {
+                                            "__typename": "BedTypeTranslation",
+                                            "name": "lit double"
+                                        },
+                                        "bedType": "DOUBLE_BED",
+                                        "count": 1
+                                    }
+                                ],
+                                "__typename": "RDSBedConfiguration",
+                                "configurationId": 1
+                            }
+                        ],
+                        "bathroomCount": 0,
+                        "cribsAvailableForFree": false,
+                        "occupancy": {
+                            "maxGuests": 2,
+                            "__typename": "RDSRoomOccupancy",
+                            "maxChildren": 0,
+                            "maxPersons": 2
+                        },
+                        "apartmentRooms": [],
+                        "isSmoking": false,
+                        "roomSizeM2": 10.0,
+                        "roomTypeId": 9,
+                        "roomPhotos": [
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212999.jpg?k=f214ec75c1abf728bb2f4d8b2656f9731474858e6948e959074b8325a7b56754&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212999,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212999.jpg?k=f214ec75c1abf728bb2f4d8b2656f9731474858e6948e959074b8325a7b56754&o="
+                            },
+                            {
+                                "photoUri": "/xdata/images/hotel/max1024x768/728213001.jpg?k=da4cd03ab09af0e0c054e95b6e718b96de6fcdf114a057c050653b2c604d53c0&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728213001,
+                                "thumbnailUri": "/xdata/images/hotel/square60/728213001.jpg?k=da4cd03ab09af0e0c054e95b6e718b96de6fcdf114a057c050653b2c604d53c0&o="
+                            },
+                            {
+                                "id": 728212996,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212996.jpg?k=b487eb5c5eda393fd3005c0d1d36cc02731b66afdbbbdaf07298214dd01c3102&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212996.jpg?k=b487eb5c5eda393fd3005c0d1d36cc02731b66afdbbbdaf07298214dd01c3102&o="
+                            },
+                            {
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212995,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212995.jpg?k=87c5cf353730b89899559f9087ea74b03928ef415347c6d304e382f1f44553f2&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212995.jpg?k=87c5cf353730b89899559f9087ea74b03928ef415347c6d304e382f1f44553f2&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728213004.jpg?k=ef7ba67674bf3e0d82ce010193576e2dded2a71c0406d337cedc5f17d893d1fd&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728213004.jpg?k=ef7ba67674bf3e0d82ce010193576e2dded2a71c0406d337cedc5f17d893d1fd&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728213004
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212992.jpg?k=4310f6ded404c9d974e30fc2d51bf095501c24309abd229c4a25dbc973c3c53e&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212992.jpg?k=4310f6ded404c9d974e30fc2d51bf095501c24309abd229c4a25dbc973c3c53e&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212992
+                            }
+                        ],
+                        "bathroomFacilityAttributes": {
+                            "isExternalBathroom": false,
+                            "__typename": "RDSBathroomFacilityAttributes",
+                            "isEnsuiteBathroom": true
+                        },
+                        "translations": {
+                            "description": "Cette chambre climatisée dispose d'une télévision à écran plat avec les chaînes Canal+, d'un minibar avec des boissons sans alcool gratuites et d'une salle de bains privative pourvue d’une douche à l'italienne ou d’une baignoire.",
+                            "__typename": "RoomTranslation",
+                            "name": "Chambre Double Standard"
+                        },
+                        "isBiggerThanAverageRoomInUfi": false,
+                        "__typename": "RoomDetails",
+                        "id": 5029814,
+                        "privacyLevel": 1
+                    },
+                    {
+                        "id": 5029816,
+                        "__typename": "RoomDetails",
+                        "privacyLevel": 1,
+                        "isBiggerThanAverageRoomInUfi": false,
+                        "translations": {
+                            "description": "Cette chambre plus spacieuse dispose d'une télévision à écran plat avec les chaînes Canal+, d'un minibar avec des boissons sans alcool gratuites et d'une salle de bains privative pourvue d’une douche à l'italienne ou d’une baignoire.\n\nCertains hébergements possèdent un balcon.",
+                            "name": "Chambre Supérieure",
+                            "__typename": "RoomTranslation"
+                        },
+                        "bathroomFacilityAttributes": {
+                            "__typename": "RDSBathroomFacilityAttributes",
+                            "isExternalBathroom": false,
+                            "isEnsuiteBathroom": true
+                        },
+                        "roomPhotos": [
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212121.jpg?k=14f317b587b8fd6afebcbce2499bd5368174584dd7e6f1abd5dc515b3a3e4514&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212121.jpg?k=14f317b587b8fd6afebcbce2499bd5368174584dd7e6f1abd5dc515b3a3e4514&o=",
+                                "id": 728212121
+                            },
+                            {
+                                "id": 728212116,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212116.jpg?k=54a39e79a9ac697cbcfc09572249518d0d9e2abbbb156cc1e44099dd9b1a9d8a&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212116.jpg?k=54a39e79a9ac697cbcfc09572249518d0d9e2abbbb156cc1e44099dd9b1a9d8a&o="
+                            },
+                            {
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212239.jpg?k=c700256def3a545a34e4371058ca1bbe94b95c5b1b4f7c736b95e7fea966e064&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212239,
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212239.jpg?k=c700256def3a545a34e4371058ca1bbe94b95c5b1b4f7c736b95e7fea966e064&o="
+                            },
+                            {
+                                "id": 728212260,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212260.jpg?k=4d42e832b417f30e92f0ec59f92954c9bacfe21a2cb3f8649acb984b92506f77&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212260.jpg?k=4d42e832b417f30e92f0ec59f92954c9bacfe21a2cb3f8649acb984b92506f77&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212155.jpg?k=0d33d7922ab5398bc5b23f06d21c5ecea823276bdca76bfbe08377e466b100c2&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212155.jpg?k=0d33d7922ab5398bc5b23f06d21c5ecea823276bdca76bfbe08377e466b100c2&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212155
+                            }
+                        ],
+                        "roomTypeId": 9,
+                        "roomSizeM2": 13.0,
+                        "isSmoking": false,
+                        "apartmentRooms": [],
+                        "occupancy": {
+                            "maxChildren": 0,
+                            "__typename": "RDSRoomOccupancy",
+                            "maxGuests": 2,
+                            "maxPersons": 2
+                        },
+                        "bathroomCount": 0,
+                        "cribsAvailableForFree": false,
+                        "bedConfigurations": [
+                            {
+                                "configurationId": 1,
+                                "beds": [
+                                    {
+                                        "__typename": "RDSBed",
+                                        "translation": {
+                                            "name": "lit double",
+                                            "__typename": "BedTypeTranslation"
+                                        },
+                                        "bedType": "DOUBLE_BED",
+                                        "count": 1
+                                    }
+                                ],
+                                "__typename": "RDSBedConfiguration"
+                            }
+                        ],
+                        "roomFloor": []
+                    },
+                    {
+                        "id": 5029819,
+                        "__typename": "RoomDetails",
+                        "privacyLevel": 1,
+                        "isBiggerThanAverageRoomInUfi": false,
+                        "translations": {
+                            "name": "Chambre Privilège",
+                            "__typename": "RoomTranslation",
+                            "description": "Cette chambre double dispose d’une station d’accueil pour iPod."
+                        },
+                        "bathroomFacilityAttributes": {
+                            "isExternalBathroom": false,
+                            "__typename": "RDSBathroomFacilityAttributes",
+                            "isEnsuiteBathroom": true
+                        },
+                        "roomPhotos": [
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211214.jpg?k=2b49e9bca92e013908bfdc3931b62ba552645ac2d42e2457f07dfa2200b48ff3&o=",
+                                "id": 728211214,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211214.jpg?k=2b49e9bca92e013908bfdc3931b62ba552645ac2d42e2457f07dfa2200b48ff3&o="
+                            },
+                            {
+                                "id": 728211274,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211274.jpg?k=b8296ab8f94bf8dbf1fde58df3a87da1cf9ca76e0265167130faef81c2b5f615&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211274.jpg?k=b8296ab8f94bf8dbf1fde58df3a87da1cf9ca76e0265167130faef81c2b5f615&o="
+                            },
+                            {
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728211222,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211222.jpg?k=e7df35a676d7f40ec16b2cfca556fabcd01dfb2bd24b5bc8566323b7dfdbce77&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211222.jpg?k=e7df35a676d7f40ec16b2cfca556fabcd01dfb2bd24b5bc8566323b7dfdbce77&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211335.jpg?k=e1136c2202e87fde226f8e67280f5cc7cc22a7714bf4b998b847f61b19f3d008&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211335.jpg?k=e1136c2202e87fde226f8e67280f5cc7cc22a7714bf4b998b847f61b19f3d008&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728211335
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211427.jpg?k=24affc0c98097b7ecf96025bda9ff911116da2f1a950e674148c34a9c2f579d0&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211427.jpg?k=24affc0c98097b7ecf96025bda9ff911116da2f1a950e674148c34a9c2f579d0&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728211427
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211501.jpg?k=601756095754bdcd64f4c6a1d13935ec6302534bd919a474a58edf969b73feb3&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211501.jpg?k=601756095754bdcd64f4c6a1d13935ec6302534bd919a474a58edf969b73feb3&o=",
+                                "id": 728211501
+                            }
+                        ],
+                        "roomTypeId": 9,
+                        "roomSizeM2": 15.0,
+                        "isSmoking": false,
+                        "apartmentRooms": [],
+                        "occupancy": {
+                            "maxPersons": 2,
+                            "maxChildren": 0,
+                            "__typename": "RDSRoomOccupancy",
+                            "maxGuests": 2
+                        },
+                        "cribsAvailableForFree": false,
+                        "bathroomCount": 0,
+                        "bedConfigurations": [
+                            {
+                                "configurationId": 1,
+                                "beds": [
+                                    {
+                                        "__typename": "RDSBed",
+                                        "translation": {
+                                            "name": "lit King-Size",
+                                            "__typename": "BedTypeTranslation"
+                                        },
+                                        "bedType": "LARGE_DOUBLE_BED",
+                                        "count": 1
+                                    }
+                                ],
+                                "__typename": "RDSBedConfiguration"
+                            }
+                        ],
+                        "roomFloor": []
+                    },
+                    {
+                        "occupancy": {
+                            "maxPersons": 3,
+                            "maxGuests": 3,
+                            "maxChildren": 1,
+                            "__typename": "RDSRoomOccupancy"
+                        },
+                        "apartmentRooms": [
+                            {
+                                "beds": [
+                                    {
+                                        "count": 1,
+                                        "bedType": "SOFA_BED",
+                                        "translation": {
+                                            "name": "canapé-lit",
+                                            "__typename": "BedTypeTranslation"
+                                        },
+                                        "__typename": "RDSBed"
+                                    },
+                                    {
+                                        "translation": {
+                                            "__typename": "BedTypeTranslation",
+                                            "name": "lit King-Size"
+                                        },
+                                        "__typename": "RDSBed",
+                                        "count": 1,
+                                        "bedType": "LARGE_DOUBLE_BED"
+                                    }
+                                ],
+                                "ensuiteBathroom": 1,
+                                "count": 1,
+                                "maxPersons": 3,
+                                "id": 20348384,
+                                "__typename": "RDSApartmentRoom",
+                                "roomType": "Bedroom"
+                            }
+                        ],
+                        "isSmoking": false,
+                        "roomSizeM2": 20.0,
+                        "roomTypeId": 5,
+                        "roomFloor": [],
+                        "bedConfigurations": [],
+                        "bathroomCount": 1,
+                        "cribsAvailableForFree": false,
+                        "translations": {
+                            "__typename": "RoomTranslation",
+                            "name": "Suite Junior",
+                            "description": "Cette suite climatisée comprend une chambre ainsi qu’une salle de bains privative pourvue d’une douche à l'italienne et d’un sèche-cheveux. Offrant une vue sur la ville, cette suite insonorisée dispose d’une télévision par câble à écran plat, d’un minibar et d’un plateau/bouilloire. Le logement comporte 2 lits."
+                        },
+                        "isBiggerThanAverageRoomInUfi": false,
+                        "privacyLevel": 1,
+                        "__typename": "RoomDetails",
+                        "id": 5029822,
+                        "roomPhotos": [
+                            {
+                                "id": 728210366,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728210366.jpg?k=f09e951391fd805348a2b391f130156929ee697558998fbed3ab0b195a236cae&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728210366.jpg?k=f09e951391fd805348a2b391f130156929ee697558998fbed3ab0b195a236cae&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728210389.jpg?k=bfac7bca64ac9662ebc0541d497c6164839087d1ac82fa0ffd57bf25a9179153&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728210389.jpg?k=bfac7bca64ac9662ebc0541d497c6164839087d1ac82fa0ffd57bf25a9179153&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728210389
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728210445.jpg?k=267ed3fd1d20250d0666b1455028eec2c3f92db44efe77bc65d6f1483550ecd5&o=",
+                                "id": 728210445,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728210445.jpg?k=267ed3fd1d20250d0666b1455028eec2c3f92db44efe77bc65d6f1483550ecd5&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728210416.jpg?k=446543123d0da5954da4110a74dfc1e029c4ba92f899a26d4b3fb5ea6c2e7b85&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728210416,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728210416.jpg?k=446543123d0da5954da4110a74dfc1e029c4ba92f899a26d4b3fb5ea6c2e7b85&o="
+                            },
+                            {
+                                "id": 309329255,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/309329255.jpg?k=c2fc23d0f97bee7d637bc5d7b93d8c62b718128a269719184d7fd11980f53409&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/309329255.jpg?k=c2fc23d0f97bee7d637bc5d7b93d8c62b718128a269719184d7fd11980f53409&o="
+                            },
+                            {
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728210505.jpg?k=11da782c830b395f7680912a0f31278ac516501d25d981b4fd0d2e893d46c96c&o=",
+                                "id": 728210505,
+                                "thumbnailUri": "/xdata/images/hotel/square60/728210505.jpg?k=11da782c830b395f7680912a0f31278ac516501d25d981b4fd0d2e893d46c96c&o="
+                            }
+                        ],
+                        "bathroomFacilityAttributes": {
+                            "isEnsuiteBathroom": true,
+                            "__typename": "RDSBathroomFacilityAttributes",
+                            "isExternalBathroom": false
+                        }
+                    },
+                    {
+                        "roomTypeId": 9,
+                        "roomSizeM2": 10.0,
+                        "isSmoking": false,
+                        "occupancy": {
+                            "maxGuests": 2,
+                            "__typename": "RDSRoomOccupancy",
+                            "maxChildren": 0,
+                            "maxPersons": 2
+                        },
+                        "apartmentRooms": [],
+                        "bathroomCount": 0,
+                        "cribsAvailableForFree": false,
+                        "bedConfigurations": [
+                            {
+                                "configurationId": 1,
+                                "__typename": "RDSBedConfiguration",
+                                "beds": [
+                                    {
+                                        "translation": {
+                                            "name": "lit King-Size",
+                                            "__typename": "BedTypeTranslation"
+                                        },
+                                        "__typename": "RDSBed",
+                                        "count": 1,
+                                        "bedType": "LARGE_DOUBLE_BED"
+                                    }
+                                ]
+                            }
+                        ],
+                        "roomFloor": [],
+                        "__typename": "RoomDetails",
+                        "privacyLevel": 1,
+                        "id": 5029823,
+                        "isBiggerThanAverageRoomInUfi": false,
+                        "translations": {
+                            "__typename": "RoomTranslation",
+                            "name": "Chambre Double avec Balcon",
+                            "description": "Cette chambre double comprend une salle de bains privative avec douche à l’italienne et sèche-cheveux. Des chaussons et des articles de toilette gratuits sont fournis. Offrant une vue sur la ville, cette chambre double est climatisée et insonorisée. Elle dispose d’une télévision par câble à écran plat, d’un minibar et d’un plateau/bouilloire. Ce logement comporte 1 lit."
+                        },
+                        "bathroomFacilityAttributes": {
+                            "isEnsuiteBathroom": true,
+                            "isExternalBathroom": false,
+                            "__typename": "RDSBathroomFacilityAttributes"
+                        },
+                        "roomPhotos": [
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728214001.jpg?k=a5f20898ff388372a75ab97bdbbb358a7b8c98eb3e9e19a3510e5f5f784d6ce6&o=",
+                                "id": 728214001,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728214001.jpg?k=a5f20898ff388372a75ab97bdbbb358a7b8c98eb3e9e19a3510e5f5f784d6ce6&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212991.jpg?k=ac0a77c95a4c458bf2e337abe35d5d7129a85e5a772fb6bfdde920e39699eac4&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212991.jpg?k=ac0a77c95a4c458bf2e337abe35d5d7129a85e5a772fb6bfdde920e39699eac4&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212991
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212994.jpg?k=5ab67c182940b81de5c7a00020cd2c9b349d1e68d7b325c0fb18235a8739d924&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212994,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212994.jpg?k=5ab67c182940b81de5c7a00020cd2c9b349d1e68d7b325c0fb18235a8739d924&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212995.jpg?k=87c5cf353730b89899559f9087ea74b03928ef415347c6d304e382f1f44553f2&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212995,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212995.jpg?k=87c5cf353730b89899559f9087ea74b03928ef415347c6d304e382f1f44553f2&o="
+                            },
+                            {
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212996.jpg?k=b487eb5c5eda393fd3005c0d1d36cc02731b66afdbbbdaf07298214dd01c3102&o=",
+                                "id": 728212996,
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212996.jpg?k=b487eb5c5eda393fd3005c0d1d36cc02731b66afdbbbdaf07298214dd01c3102&o="
+                            },
+                            {
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212999.jpg?k=f214ec75c1abf728bb2f4d8b2656f9731474858e6948e959074b8325a7b56754&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212999,
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212999.jpg?k=f214ec75c1abf728bb2f4d8b2656f9731474858e6948e959074b8325a7b56754&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728213001.jpg?k=da4cd03ab09af0e0c054e95b6e718b96de6fcdf114a057c050653b2c604d53c0&o=",
+                                "id": 728213001,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728213001.jpg?k=da4cd03ab09af0e0c054e95b6e718b96de6fcdf114a057c050653b2c604d53c0&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728213003.jpg?k=2b2a77bca6cab52f429cca9d052b224b0461a01ec0169879995487d8dd867b00&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728213003.jpg?k=2b2a77bca6cab52f429cca9d052b224b0461a01ec0169879995487d8dd867b00&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728213003
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728213004.jpg?k=ef7ba67674bf3e0d82ce010193576e2dded2a71c0406d337cedc5f17d893d1fd&o=",
+                                "id": 728213004,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728213004.jpg?k=ef7ba67674bf3e0d82ce010193576e2dded2a71c0406d337cedc5f17d893d1fd&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212992.jpg?k=4310f6ded404c9d974e30fc2d51bf095501c24309abd229c4a25dbc973c3c53e&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212992.jpg?k=4310f6ded404c9d974e30fc2d51bf095501c24309abd229c4a25dbc973c3c53e&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212992
+                            }
+                        ]
+                    },
+                    {
+                        "translations": {
+                            "description": "Cette chambre double possède une salle de bains privative avec douche à l'italienne, baignoire et sèche-cheveux. Des peignoirs et des articles de toilette gratuits sont fournis. Offrant une vue sur la ville, cette chambre double est climatisée et insonorisée. Elle dispose d’une télévision par câble à écran plat, d’un minibar et d’un plateau/bouilloire. Ce logement comporte 1 lit.",
+                            "name": "Chambre Double Deluxe avec Balcon",
+                            "__typename": "RoomTranslation"
+                        },
+                        "isBiggerThanAverageRoomInUfi": false,
+                        "id": 5029824,
+                        "__typename": "RoomDetails",
+                        "privacyLevel": 1,
+                        "roomPhotos": [
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211214.jpg?k=2b49e9bca92e013908bfdc3931b62ba552645ac2d42e2457f07dfa2200b48ff3&o=",
+                                "id": 728211214,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211214.jpg?k=2b49e9bca92e013908bfdc3931b62ba552645ac2d42e2457f07dfa2200b48ff3&o="
+                            },
+                            {
+                                "id": 728211274,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211274.jpg?k=b8296ab8f94bf8dbf1fde58df3a87da1cf9ca76e0265167130faef81c2b5f615&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211274.jpg?k=b8296ab8f94bf8dbf1fde58df3a87da1cf9ca76e0265167130faef81c2b5f615&o="
+                            },
+                            {
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728211335,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211335.jpg?k=e1136c2202e87fde226f8e67280f5cc7cc22a7714bf4b998b847f61b19f3d008&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211335.jpg?k=e1136c2202e87fde226f8e67280f5cc7cc22a7714bf4b998b847f61b19f3d008&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211427.jpg?k=24affc0c98097b7ecf96025bda9ff911116da2f1a950e674148c34a9c2f579d0&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211427.jpg?k=24affc0c98097b7ecf96025bda9ff911116da2f1a950e674148c34a9c2f579d0&o=",
+                                "id": 728211427
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728211501.jpg?k=601756095754bdcd64f4c6a1d13935ec6302534bd919a474a58edf969b73feb3&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728211501.jpg?k=601756095754bdcd64f4c6a1d13935ec6302534bd919a474a58edf969b73feb3&o=",
+                                "id": 728211501
+                            }
+                        ],
+                        "bathroomFacilityAttributes": {
+                            "__typename": "RDSBathroomFacilityAttributes",
+                            "isExternalBathroom": false,
+                            "isEnsuiteBathroom": true
+                        },
+                        "occupancy": {
+                            "maxGuests": 2,
+                            "__typename": "RDSRoomOccupancy",
+                            "maxChildren": 0,
+                            "maxPersons": 2
+                        },
+                        "apartmentRooms": [],
+                        "isSmoking": false,
+                        "roomSizeM2": 15.0,
+                        "roomTypeId": 9,
+                        "roomFloor": [],
+                        "bedConfigurations": [
+                            {
+                                "configurationId": 1,
+                                "__typename": "RDSBedConfiguration",
+                                "beds": [
+                                    {
+                                        "count": 1,
+                                        "bedType": "LARGE_DOUBLE_BED",
+                                        "translation": {
+                                            "__typename": "BedTypeTranslation",
+                                            "name": "lit King-Size"
+                                        },
+                                        "__typename": "RDSBed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "bathroomCount": 0,
+                        "cribsAvailableForFree": false
+                    },
+                    {
+                        "isBiggerThanAverageRoomInUfi": false,
+                        "translations": {
+                            "description": "Cette chambre double comprend une salle de bains privative avec douche à l’italienne, baignoire et sèche-cheveux. Des articles de toilette sont fournis gratuitement. Offrant une vue sur la ville, cette chambre double est climatisée et insonorisée. Elle dispose d’une télévision par câble à écran plat, d’un minibar et d’un plateau/bouilloire. Ce logement comporte 1 lit.",
+                            "__typename": "RoomTranslation",
+                            "name": "Chambre Lit Queen-Size avec Balcon"
+                        },
+                        "id": 5029825,
+                        "__typename": "RoomDetails",
+                        "privacyLevel": 1,
+                        "roomPhotos": [
+                            {
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212116.jpg?k=54a39e79a9ac697cbcfc09572249518d0d9e2abbbb156cc1e44099dd9b1a9d8a&o=",
+                                "id": 728212116,
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212116.jpg?k=54a39e79a9ac697cbcfc09572249518d0d9e2abbbb156cc1e44099dd9b1a9d8a&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212155.jpg?k=0d33d7922ab5398bc5b23f06d21c5ecea823276bdca76bfbe08377e466b100c2&o=",
+                                "id": 728212155,
+                                "__typename": "RDSRoomPhoto",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212155.jpg?k=0d33d7922ab5398bc5b23f06d21c5ecea823276bdca76bfbe08377e466b100c2&o="
+                            },
+                            {
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212239,
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212239.jpg?k=c700256def3a545a34e4371058ca1bbe94b95c5b1b4f7c736b95e7fea966e064&o=",
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212239.jpg?k=c700256def3a545a34e4371058ca1bbe94b95c5b1b4f7c736b95e7fea966e064&o="
+                            },
+                            {
+                                "thumbnailUri": "/xdata/images/hotel/square60/728212260.jpg?k=4d42e832b417f30e92f0ec59f92954c9bacfe21a2cb3f8649acb984b92506f77&o=",
+                                "photoUri": "/xdata/images/hotel/max1024x768/728212260.jpg?k=4d42e832b417f30e92f0ec59f92954c9bacfe21a2cb3f8649acb984b92506f77&o=",
+                                "__typename": "RDSRoomPhoto",
+                                "id": 728212260
+                            }
+                        ],
+                        "bathroomFacilityAttributes": {
+                            "isEnsuiteBathroom": true,
+                            "isExternalBathroom": false,
+                            "__typename": "RDSBathroomFacilityAttributes"
+                        },
+                        "isSmoking": false,
+                        "apartmentRooms": [],
+                        "occupancy": {
+                            "maxGuests": 2,
+                            "__typename": "RDSRoomOccupancy",
+                            "maxChildren": 0,
+                            "maxPersons": 2
+                        },
+                        "roomTypeId": 9,
+                        "roomSizeM2": 13.0,
+                        "roomFloor": [],
+                        "bathroomCount": 0,
+                        "cribsAvailableForFree": false,
+                        "bedConfigurations": [
+                            {
+                                "configurationId": 1,
+                                "__typename": "RDSBedConfiguration",
+                                "beds": [
+                                    {
+                                        "translation": {
+                                            "__typename": "BedTypeTranslation",
+                                            "name": "lit King-Size"
+                                        },
+                                        "__typename": "RDSBed",
+                                        "bedType": "LARGE_DOUBLE_BED",
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "highFloorStartsAt": 3,
+                "name": "Grand Hotel Francais",
+                "id": 50298,
+                "__typename": "Property"
+            },
+            "highlightsForAllRooms": [
+                {
+                    "__typename": "HighlightsForAllRooms",
+                    "roomId": 5029814,
+                    "roomHighlights": [
+                        {
+                            "__typename": "RDSRoomPrivacyHighlight",
+                            "privacyLevel": "PRIVACY_LEVEL_1"
+                        },
+                        {
+                            "areaValue": 10.0,
+                            "__typename": "RDSRoomSizeHighlight"
+                        },
+                        {
+                            "name": "Vue sur la ville",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 121
+                        },
+                        {
+                            "name": "Climatisation",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 11,
+                            "translationOverride": null
+                        },
+                        {
+                            "translationOverride": "rc_facility_ensuite_bathroom",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 38,
+                            "name": "Salle de bains privative"
+                        },
+                        {
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 75,
+                            "name": "Télévision à écran plat"
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 79,
+                            "name": "Insonorisation"
+                        },
+                        {
+                            "name": "Minibar",
+                            "id": 3,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null
+                        },
+                        {
+                            "__typename": "RDSHotelFacilityHighlight",
+                            "id": 107
+                        }
+                    ]
+                },
+                {
+                    "roomId": 5029816,
+                    "roomHighlights": [
+                        {
+                            "__typename": "RDSRoomPrivacyHighlight",
+                            "privacyLevel": "PRIVACY_LEVEL_1"
+                        },
+                        {
+                            "__typename": "RDSRoomSizeHighlight",
+                            "areaValue": 13.0
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 121,
+                            "translationOverride": null,
+                            "name": "Vue sur la ville"
+                        },
+                        {
+                            "id": 5,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "name": "Baignoire"
+                        },
+                        {
+                            "name": "Climatisation",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 11
+                        },
+                        {
+                            "translationOverride": "rc_facility_ensuite_bathroom",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 38,
+                            "name": "Salle de bains privative"
+                        },
+                        {
+                            "id": 75,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "name": "Télévision à écran plat"
+                        },
+                        {
+                            "name": "Insonorisation",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 79,
+                            "translationOverride": null
+                        },
+                        {
+                            "name": "Minibar",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 3
+                        },
+                        {
+                            "id": 107,
+                            "__typename": "RDSHotelFacilityHighlight"
+                        }
+                    ],
+                    "__typename": "HighlightsForAllRooms"
+                },
+                {
+                    "__typename": "HighlightsForAllRooms",
+                    "roomId": 5029819,
+                    "roomHighlights": [
+                        {
+                            "__typename": "RDSRoomPrivacyHighlight",
+                            "privacyLevel": "PRIVACY_LEVEL_1"
+                        },
+                        {
+                            "areaValue": 15.0,
+                            "__typename": "RDSRoomSizeHighlight"
+                        },
+                        {
+                            "id": 121,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "name": "Vue sur la ville"
+                        },
+                        {
+                            "id": 11,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "name": "Climatisation"
+                        },
+                        {
+                            "translationOverride": "rc_facility_ensuite_bathroom",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 38,
+                            "name": "Salle de bains privative"
+                        },
+                        {
+                            "name": "Télévision à écran plat",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 75
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 79,
+                            "name": "Insonorisation"
+                        },
+                        {
+                            "name": "Machine à café",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 120
+                        },
+                        {
+                            "name": "Minibar",
+                            "id": 3,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null
+                        },
+                        {
+                            "__typename": "RDSHotelFacilityHighlight",
+                            "id": 107
+                        }
+                    ]
+                },
+                {
+                    "__typename": "HighlightsForAllRooms",
+                    "roomHighlights": [
+                        {
+                            "privacyLevel": "PRIVACY_LEVEL_1",
+                            "__typename": "RDSRoomPrivacyHighlight"
+                        },
+                        {
+                            "areaValue": 20.0,
+                            "__typename": "RDSRoomSizeHighlight"
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 121,
+                            "translationOverride": null,
+                            "name": "Vue sur la ville"
+                        },
+                        {
+                            "name": "Climatisation",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 11
+                        },
+                        {
+                            "name": "Salle de bains privative",
+                            "id": 38,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": "rc_facility_ensuite_bathroom"
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 75,
+                            "translationOverride": null,
+                            "name": "Télévision à écran plat"
+                        },
+                        {
+                            "name": "Insonorisation",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 79
+                        },
+                        {
+                            "name": "Machine à café",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 120
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 3,
+                            "name": "Minibar"
+                        },
+                        {
+                            "id": 107,
+                            "__typename": "RDSHotelFacilityHighlight"
+                        }
+                    ],
+                    "roomId": 5029822
+                },
+                {
+                    "roomHighlights": [
+                        {
+                            "__typename": "RDSRoomPrivacyHighlight",
+                            "privacyLevel": "PRIVACY_LEVEL_1"
+                        },
+                        {
+                            "__typename": "RDSRoomSizeHighlight",
+                            "areaValue": 10.0
+                        },
+                        {
+                            "name": "Vue sur la ville",
+                            "id": 121,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null
+                        },
+                        {
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 11,
+                            "name": "Climatisation"
+                        },
+                        {
+                            "name": "Salle de bains privative",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": "rc_facility_ensuite_bathroom",
+                            "id": 38
+                        },
+                        {
+                            "name": "Télévision à écran plat",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 75
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 79,
+                            "translationOverride": null,
+                            "name": "Insonorisation"
+                        },
+                        {
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 120,
+                            "name": "Machine à café"
+                        },
+                        {
+                            "name": "Minibar",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 3
+                        },
+                        {
+                            "id": 107,
+                            "__typename": "RDSHotelFacilityHighlight"
+                        }
+                    ],
+                    "roomId": 5029823,
+                    "__typename": "HighlightsForAllRooms"
+                },
+                {
+                    "__typename": "HighlightsForAllRooms",
+                    "roomId": 5029824,
+                    "roomHighlights": [
+                        {
+                            "__typename": "RDSRoomPrivacyHighlight",
+                            "privacyLevel": "PRIVACY_LEVEL_1"
+                        },
+                        {
+                            "__typename": "RDSRoomSizeHighlight",
+                            "areaValue": 15.0
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 121,
+                            "name": "Vue sur la ville"
+                        },
+                        {
+                            "id": 5,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "name": "Baignoire"
+                        },
+                        {
+                            "name": "Climatisation",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 11,
+                            "translationOverride": null
+                        },
+                        {
+                            "id": 38,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": "rc_facility_ensuite_bathroom",
+                            "name": "Salle de bains privative"
+                        },
+                        {
+                            "name": "Télévision à écran plat",
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 75
+                        },
+                        {
+                            "name": "Insonorisation",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 79
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 120,
+                            "name": "Machine à café"
+                        },
+                        {
+                            "name": "Minibar",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "id": 3
+                        },
+                        {
+                            "__typename": "RDSHotelFacilityHighlight",
+                            "id": 107
+                        }
+                    ]
+                },
+                {
+                    "__typename": "HighlightsForAllRooms",
+                    "roomId": 5029825,
+                    "roomHighlights": [
+                        {
+                            "__typename": "RDSRoomPrivacyHighlight",
+                            "privacyLevel": "PRIVACY_LEVEL_1"
+                        },
+                        {
+                            "__typename": "RDSRoomSizeHighlight",
+                            "areaValue": 13.0
+                        },
+                        {
+                            "name": "Vue sur la ville",
+                            "id": 121,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null
+                        },
+                        {
+                            "id": 5,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null,
+                            "name": "Baignoire"
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 11,
+                            "translationOverride": null,
+                            "name": "Climatisation"
+                        },
+                        {
+                            "name": "Salle de bains privative",
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": "rc_facility_ensuite_bathroom",
+                            "id": 38
+                        },
+                        {
+                            "name": "Télévision à écran plat",
+                            "id": 75,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "translationOverride": null
+                        },
+                        {
+                            "translationOverride": null,
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 79,
+                            "name": "Insonorisation"
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 120,
+                            "translationOverride": null,
+                            "name": "Machine à café"
+                        },
+                        {
+                            "__typename": "RDSRoomFacilityHighlight",
+                            "id": 3,
+                            "translationOverride": null,
+                            "name": "Minibar"
+                        },
+                        {
+                            "__typename": "RDSHotelFacilityHighlight",
+                            "id": 107
+                        }
+                    ]
+                }
+            ],
+            "categorizedFacilitiesForAllRooms": [
+                {
+                    "roomId": 5029814,
+                    "categorizedFacilities": [
+                        {
+                            "facilities": [
+                                {
+                                    "name": "Articles de toilette gratuits",
+                                    "__typename": "SimpleFacility",
+                                    "id": 27
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 31,
+                                    "name": "Toilettes"
+                                },
+                                {
+                                    "id": 69,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Baignoire ou douche"
+                                },
+                                {
+                                    "name": "Serviettes",
+                                    "id": 124,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chaussons",
+                                    "id": 43,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Sèche-cheveux",
+                                    "__typename": "SimpleFacility",
+                                    "id": 12
+                                },
+                                {
+                                    "id": 141,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Papier toilette"
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory",
+                            "category": "BATHROOM_PRIVATE"
+                        },
+                        {
+                            "facilities": [
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 121,
+                                    "name": "Vue sur la ville"
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory",
+                            "category": "VIEW"
+                        },
+                        {
+                            "category": "OTHER",
+                            "facilities": [
+                                {
+                                    "id": 11,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Climatisation"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 6,
+                                    "name": "Coffre-fort"
+                                },
+                                {
+                                    "name": "Prise près du lit",
+                                    "__typename": "SimpleFacility",
+                                    "id": 184
+                                },
+                                {
+                                    "name": "Bureau",
+                                    "id": 23,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Insonorisation",
+                                    "__typename": "SimpleFacility",
+                                    "id": 79
+                                },
+                                {
+                                    "name": "Télévision",
+                                    "__typename": "SimpleFacility",
+                                    "id": 8
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 9,
+                                    "name": "Téléphone"
+                                },
+                                {
+                                    "name": "Chaînes satellite",
+                                    "__typename": "SimpleFacility",
+                                    "id": 44
+                                },
+                                {
+                                    "id": 1,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Plateau / bouilloire"
+                                },
+                                {
+                                    "name": "Radio",
+                                    "__typename": "SimpleFacility",
+                                    "id": 21
+                                },
+                                {
+                                    "name": "Chambre(s) communicante(s) disponible(s)",
+                                    "__typename": "SimpleFacility",
+                                    "id": 73
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 40,
+                                    "name": "Chauffage"
+                                },
+                                {
+                                    "id": 75,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Télévision à écran plat"
+                                },
+                                {
+                                    "name": "Station d'accueil pour iPod",
+                                    "id": 88,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 3,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Minibar"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 41,
+                                    "name": "Dressing"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 70,
+                                    "name": "Moquette"
+                                },
+                                {
+                                    "name": "Bouilloire électrique",
+                                    "__typename": "SimpleFacility",
+                                    "id": 86
+                                },
+                                {
+                                    "name": "Chaînes du câble",
+                                    "id": 68,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Coffre-fort pour ordinateur portable",
+                                    "id": 74,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 95,
+                                    "name": "Armoire ou penderie"
+                                },
+                                {
+                                    "name": "Étages supérieurs accessibles par ascenseur",
+                                    "__typename": "SimpleFacility",
+                                    "id": 132
+                                },
+                                {
+                                    "name": "Climatiseur indépendant dans les hébergements",
+                                    "id": 230,
+                                    "__typename": "SimpleFacility"
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        }
+                    ],
+                    "__typename": "CategorizedFacilitiesForAllRooms"
+                },
+                {
+                    "roomId": 5029816,
+                    "categorizedFacilities": [
+                        {
+                            "category": "BATHROOM_PRIVATE",
+                            "facilities": [
+                                {
+                                    "id": 5,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Baignoire"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 27,
+                                    "name": "Articles de toilette gratuits"
+                                },
+                                {
+                                    "id": 4,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Douche"
+                                },
+                                {
+                                    "name": "Toilettes",
+                                    "id": 31,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Serviettes",
+                                    "__typename": "SimpleFacility",
+                                    "id": 124
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 43,
+                                    "name": "Chaussons"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 12,
+                                    "name": "Sèche-cheveux"
+                                },
+                                {
+                                    "name": "Papier toilette",
+                                    "id": 141,
+                                    "__typename": "SimpleFacility"
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        },
+                        {
+                            "category": "VIEW",
+                            "facilities": [
+                                {
+                                    "name": "Vue sur la ville",
+                                    "__typename": "SimpleFacility",
+                                    "id": 121
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        },
+                        {
+                            "category": "OTHER",
+                            "facilities": [
+                                {
+                                    "name": "Climatisation",
+                                    "id": 11,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 6,
+                                    "name": "Coffre-fort"
+                                },
+                                {
+                                    "name": "Prise près du lit",
+                                    "__typename": "SimpleFacility",
+                                    "id": 184
+                                },
+                                {
+                                    "name": "Bureau",
+                                    "__typename": "SimpleFacility",
+                                    "id": 23
+                                },
+                                {
+                                    "name": "Insonorisation",
+                                    "id": 79,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 8,
+                                    "name": "Télévision"
+                                },
+                                {
+                                    "id": 9,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Téléphone"
+                                },
+                                {
+                                    "id": 44,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Chaînes satellite"
+                                },
+                                {
+                                    "name": "Plateau / bouilloire",
+                                    "id": 1,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Radio",
+                                    "id": 21,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 73,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Chambre(s) communicante(s) disponible(s)"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 40,
+                                    "name": "Chauffage"
+                                },
+                                {
+                                    "name": "Télévision à écran plat",
+                                    "id": 75,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Station d'accueil pour iPod",
+                                    "id": 88,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 3,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Minibar"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 41,
+                                    "name": "Dressing"
+                                },
+                                {
+                                    "id": 70,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Moquette"
+                                },
+                                {
+                                    "name": "Bouilloire électrique",
+                                    "__typename": "SimpleFacility",
+                                    "id": 86
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 68,
+                                    "name": "Chaînes du câble"
+                                },
+                                {
+                                    "name": "Coffre-fort pour ordinateur portable",
+                                    "id": 74,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 95,
+                                    "name": "Armoire ou penderie"
+                                },
+                                {
+                                    "name": "Étages supérieurs accessibles par ascenseur",
+                                    "id": 132,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Climatiseur indépendant dans les hébergements",
+                                    "__typename": "SimpleFacility",
+                                    "id": 230
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        }
+                    ],
+                    "__typename": "CategorizedFacilitiesForAllRooms"
+                },
+                {
+                    "categorizedFacilities": [
+                        {
+                            "category": "BATHROOM_PRIVATE",
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "name": "Articles de toilette gratuits",
+                                    "id": 27,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Peignoir",
+                                    "__typename": "SimpleFacility",
+                                    "id": 19
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 31,
+                                    "name": "Toilettes"
+                                },
+                                {
+                                    "id": 69,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Baignoire ou douche"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 124,
+                                    "name": "Serviettes"
+                                },
+                                {
+                                    "id": 43,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Chaussons"
+                                },
+                                {
+                                    "id": 12,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Sèche-cheveux"
+                                },
+                                {
+                                    "name": "Papier toilette",
+                                    "__typename": "SimpleFacility",
+                                    "id": 141
+                                }
+                            ]
+                        },
+                        {
+                            "facilities": [
+                                {
+                                    "name": "Vue sur la ville",
+                                    "__typename": "SimpleFacility",
+                                    "id": 121
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory",
+                            "category": "VIEW"
+                        },
+                        {
+                            "category": "OTHER",
+                            "facilities": [
+                                {
+                                    "name": "Climatisation",
+                                    "__typename": "SimpleFacility",
+                                    "id": 11
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 6,
+                                    "name": "Coffre-fort"
+                                },
+                                {
+                                    "name": "Prise près du lit",
+                                    "__typename": "SimpleFacility",
+                                    "id": 184
+                                },
+                                {
+                                    "name": "Bureau",
+                                    "id": 23,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Insonorisation",
+                                    "__typename": "SimpleFacility",
+                                    "id": 79
+                                },
+                                {
+                                    "name": "Télévision",
+                                    "__typename": "SimpleFacility",
+                                    "id": 8
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 9,
+                                    "name": "Téléphone"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 44,
+                                    "name": "Chaînes satellite"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 120,
+                                    "name": "Machine à café"
+                                },
+                                {
+                                    "name": "Plateau / bouilloire",
+                                    "id": 1,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Radio",
+                                    "id": 21,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chambre(s) communicante(s) disponible(s)",
+                                    "id": 73,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 40,
+                                    "name": "Chauffage"
+                                },
+                                {
+                                    "id": 75,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Télévision à écran plat"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 88,
+                                    "name": "Station d'accueil pour iPod"
+                                },
+                                {
+                                    "name": "Fax",
+                                    "id": 10,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Très grands lits (> 2 mètres de long)",
+                                    "id": 39,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Minibar",
+                                    "id": 3,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Dressing",
+                                    "__typename": "SimpleFacility",
+                                    "id": 41
+                                },
+                                {
+                                    "name": "Moquette",
+                                    "__typename": "SimpleFacility",
+                                    "id": 70
+                                },
+                                {
+                                    "name": "Bouilloire électrique",
+                                    "id": 86,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chaînes du câble",
+                                    "id": 68,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 74,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Coffre-fort pour ordinateur portable"
+                                },
+                                {
+                                    "id": 95,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Armoire ou penderie"
+                                },
+                                {
+                                    "name": "Logement entièrement situé au rez-de-chaussée",
+                                    "__typename": "SimpleFacility",
+                                    "id": 131
+                                },
+                                {
+                                    "id": 230,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Climatiseur indépendant dans les hébergements"
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        }
+                    ],
+                    "roomId": 5029819,
+                    "__typename": "CategorizedFacilitiesForAllRooms"
+                },
+                {
+                    "__typename": "CategorizedFacilitiesForAllRooms",
+                    "roomId": 5029822,
+                    "categorizedFacilities": [
+                        {
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 27,
+                                    "name": "Articles de toilette gratuits"
+                                },
+                                {
+                                    "name": "Peignoir",
+                                    "id": 19,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 31,
+                                    "name": "Toilettes"
+                                },
+                                {
+                                    "name": "Baignoire ou douche",
+                                    "id": 69,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 124,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Serviettes"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 43,
+                                    "name": "Chaussons"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 12,
+                                    "name": "Sèche-cheveux"
+                                },
+                                {
+                                    "name": "Papier toilette",
+                                    "id": 141,
+                                    "__typename": "SimpleFacility"
+                                }
+                            ],
+                            "category": "BATHROOM_PRIVATE"
+                        },
+                        {
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "name": "Vue sur la ville",
+                                    "__typename": "SimpleFacility",
+                                    "id": 121
+                                }
+                            ],
+                            "category": "VIEW"
+                        },
+                        {
+                            "category": "OTHER",
+                            "facilities": [
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 11,
+                                    "name": "Climatisation"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 6,
+                                    "name": "Coffre-fort"
+                                },
+                                {
+                                    "name": "Canapé",
+                                    "id": 77,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Prise près du lit",
+                                    "id": 184,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 23,
+                                    "name": "Bureau"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 26,
+                                    "name": "Coin salon"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 79,
+                                    "name": "Insonorisation"
+                                },
+                                {
+                                    "name": "Télévision",
+                                    "id": 8,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Téléphone",
+                                    "__typename": "SimpleFacility",
+                                    "id": 9
+                                },
+                                {
+                                    "name": "Chaînes satellite",
+                                    "id": 44,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 120,
+                                    "name": "Machine à café"
+                                },
+                                {
+                                    "name": "Plateau / bouilloire",
+                                    "__typename": "SimpleFacility",
+                                    "id": 1
+                                },
+                                {
+                                    "name": "Radio",
+                                    "id": 21,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chambre(s) communicante(s) disponible(s)",
+                                    "id": 73,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chauffage",
+                                    "id": 40,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 75,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Télévision à écran plat"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 88,
+                                    "name": "Station d'accueil pour iPod"
+                                },
+                                {
+                                    "name": "Fax",
+                                    "id": 10,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Très grands lits (> 2 mètres de long)",
+                                    "id": 39,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Minibar",
+                                    "__typename": "SimpleFacility",
+                                    "id": 3
+                                },
+                                {
+                                    "name": "Dressing",
+                                    "__typename": "SimpleFacility",
+                                    "id": 41
+                                },
+                                {
+                                    "name": "Moquette",
+                                    "id": 70,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Bouilloire électrique",
+                                    "id": 86,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chaînes du câble",
+                                    "__typename": "SimpleFacility",
+                                    "id": 68
+                                },
+                                {
+                                    "id": 74,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Coffre-fort pour ordinateur portable"
+                                },
+                                {
+                                    "name": "Armoire ou penderie",
+                                    "__typename": "SimpleFacility",
+                                    "id": 95
+                                },
+                                {
+                                    "name": "Étages supérieurs accessibles par ascenseur",
+                                    "id": 132,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 146,
+                                    "name": "Canapé-lit"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 230,
+                                    "name": "Climatiseur indépendant dans les hébergements"
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        }
+                    ]
+                },
+                {
+                    "roomId": 5029823,
+                    "categorizedFacilities": [
+                        {
+                            "category": "BATHROOM_PRIVATE",
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "name": "Articles de toilette gratuits",
+                                    "__typename": "SimpleFacility",
+                                    "id": 27
+                                },
+                                {
+                                    "id": 31,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Toilettes"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 69,
+                                    "name": "Baignoire ou douche"
+                                },
+                                {
+                                    "id": 124,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Serviettes"
+                                },
+                                {
+                                    "name": "Chaussons",
+                                    "id": 43,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 12,
+                                    "name": "Sèche-cheveux"
+                                },
+                                {
+                                    "id": 141,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Papier toilette"
+                                }
+                            ]
+                        },
+                        {
+                            "facilities": [
+                                {
+                                    "name": "Vue sur la ville",
+                                    "__typename": "SimpleFacility",
+                                    "id": 121
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory",
+                            "category": "VIEW"
+                        },
+                        {
+                            "category": "OTHER",
+                            "facilities": [
+                                {
+                                    "id": 11,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Climatisation"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 6,
+                                    "name": "Coffre-fort"
+                                },
+                                {
+                                    "id": 184,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Prise près du lit"
+                                },
+                                {
+                                    "name": "Bureau",
+                                    "__typename": "SimpleFacility",
+                                    "id": 23
+                                },
+                                {
+                                    "name": "Insonorisation",
+                                    "__typename": "SimpleFacility",
+                                    "id": 79
+                                },
+                                {
+                                    "name": "Télévision",
+                                    "id": 8,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 9,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Téléphone"
+                                },
+                                {
+                                    "name": "Chaînes satellite",
+                                    "id": 44,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Machine à café",
+                                    "id": 120,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 1,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Plateau / bouilloire"
+                                },
+                                {
+                                    "id": 21,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Radio"
+                                },
+                                {
+                                    "name": "Chambre(s) communicante(s) disponible(s)",
+                                    "id": 73,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chauffage",
+                                    "__typename": "SimpleFacility",
+                                    "id": 40
+                                },
+                                {
+                                    "name": "Télévision à écran plat",
+                                    "id": 75,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Station d'accueil pour iPod",
+                                    "__typename": "SimpleFacility",
+                                    "id": 88
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 10,
+                                    "name": "Fax"
+                                },
+                                {
+                                    "name": "Très grands lits (> 2 mètres de long)",
+                                    "id": 39,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Minibar",
+                                    "id": 3,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 41,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Dressing"
+                                },
+                                {
+                                    "name": "Moquette",
+                                    "__typename": "SimpleFacility",
+                                    "id": 70
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 86,
+                                    "name": "Bouilloire électrique"
+                                },
+                                {
+                                    "name": "Chaînes du câble",
+                                    "__typename": "SimpleFacility",
+                                    "id": 68
+                                },
+                                {
+                                    "name": "Coffre-fort pour ordinateur portable",
+                                    "id": 74,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Armoire ou penderie",
+                                    "id": 95,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 132,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Étages supérieurs accessibles par ascenseur"
+                                },
+                                {
+                                    "name": "Climatiseur indépendant dans les hébergements",
+                                    "__typename": "SimpleFacility",
+                                    "id": 230
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        }
+                    ],
+                    "__typename": "CategorizedFacilitiesForAllRooms"
+                },
+                {
+                    "__typename": "CategorizedFacilitiesForAllRooms",
+                    "categorizedFacilities": [
+                        {
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 5,
+                                    "name": "Baignoire"
+                                },
+                                {
+                                    "name": "Articles de toilette gratuits",
+                                    "__typename": "SimpleFacility",
+                                    "id": 27
+                                },
+                                {
+                                    "name": "Douche",
+                                    "id": 4,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 19,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Peignoir"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 31,
+                                    "name": "Toilettes"
+                                },
+                                {
+                                    "id": 124,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Serviettes"
+                                },
+                                {
+                                    "name": "Chaussons",
+                                    "__typename": "SimpleFacility",
+                                    "id": 43
+                                },
+                                {
+                                    "id": 12,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Sèche-cheveux"
+                                },
+                                {
+                                    "id": 141,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Papier toilette"
+                                }
+                            ],
+                            "category": "BATHROOM_PRIVATE"
+                        },
+                        {
+                            "facilities": [
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 121,
+                                    "name": "Vue sur la ville"
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory",
+                            "category": "VIEW"
+                        },
+                        {
+                            "category": "OTHER",
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "id": 11,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Climatisation"
+                                },
+                                {
+                                    "name": "Coffre-fort",
+                                    "id": 6,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 184,
+                                    "name": "Prise près du lit"
+                                },
+                                {
+                                    "name": "Bureau",
+                                    "__typename": "SimpleFacility",
+                                    "id": 23
+                                },
+                                {
+                                    "id": 79,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Insonorisation"
+                                },
+                                {
+                                    "name": "Télévision",
+                                    "id": 8,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 9,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Téléphone"
+                                },
+                                {
+                                    "id": 44,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Chaînes satellite"
+                                },
+                                {
+                                    "name": "Machine à café",
+                                    "id": 120,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 1,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Plateau / bouilloire"
+                                },
+                                {
+                                    "name": "Radio",
+                                    "__typename": "SimpleFacility",
+                                    "id": 21
+                                },
+                                {
+                                    "name": "Chambre(s) communicante(s) disponible(s)",
+                                    "id": 73,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 40,
+                                    "name": "Chauffage"
+                                },
+                                {
+                                    "name": "Télévision à écran plat",
+                                    "__typename": "SimpleFacility",
+                                    "id": 75
+                                },
+                                {
+                                    "name": "Station d'accueil pour iPod",
+                                    "id": 88,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 10,
+                                    "name": "Fax"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 39,
+                                    "name": "Très grands lits (> 2 mètres de long)"
+                                },
+                                {
+                                    "name": "Minibar",
+                                    "__typename": "SimpleFacility",
+                                    "id": 3
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 41,
+                                    "name": "Dressing"
+                                },
+                                {
+                                    "id": 70,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Moquette"
+                                },
+                                {
+                                    "name": "Bouilloire électrique",
+                                    "__typename": "SimpleFacility",
+                                    "id": 86
+                                },
+                                {
+                                    "name": "Chaînes du câble",
+                                    "__typename": "SimpleFacility",
+                                    "id": 68
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 74,
+                                    "name": "Coffre-fort pour ordinateur portable"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 95,
+                                    "name": "Armoire ou penderie"
+                                },
+                                {
+                                    "name": "Logement entièrement situé au rez-de-chaussée",
+                                    "__typename": "SimpleFacility",
+                                    "id": 131
+                                },
+                                {
+                                    "name": "Climatiseur indépendant dans les hébergements",
+                                    "id": 230,
+                                    "__typename": "SimpleFacility"
+                                }
+                            ]
+                        }
+                    ],
+                    "roomId": 5029824
+                },
+                {
+                    "roomId": 5029825,
+                    "categorizedFacilities": [
+                        {
+                            "category": "BATHROOM_PRIVATE",
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 5,
+                                    "name": "Baignoire"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 27,
+                                    "name": "Articles de toilette gratuits"
+                                },
+                                {
+                                    "name": "Douche",
+                                    "id": 4,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Toilettes",
+                                    "id": 31,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Serviettes",
+                                    "id": 124,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chaussons",
+                                    "id": 43,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "id": 12,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Sèche-cheveux"
+                                },
+                                {
+                                    "id": 141,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Papier toilette"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "FacilitiesWithCategory",
+                            "facilities": [
+                                {
+                                    "id": 121,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Vue sur la ville"
+                                }
+                            ],
+                            "category": "VIEW"
+                        },
+                        {
+                            "category": "OTHER",
+                            "facilities": [
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 11,
+                                    "name": "Climatisation"
+                                },
+                                {
+                                    "name": "Coffre-fort",
+                                    "id": 6,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Prise près du lit",
+                                    "id": 184,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Bureau",
+                                    "__typename": "SimpleFacility",
+                                    "id": 23
+                                },
+                                {
+                                    "name": "Insonorisation",
+                                    "id": 79,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Télévision",
+                                    "__typename": "SimpleFacility",
+                                    "id": 8
+                                },
+                                {
+                                    "name": "Téléphone",
+                                    "id": 9,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chaînes satellite",
+                                    "__typename": "SimpleFacility",
+                                    "id": 44
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 120,
+                                    "name": "Machine à café"
+                                },
+                                {
+                                    "name": "Plateau / bouilloire",
+                                    "__typename": "SimpleFacility",
+                                    "id": 1
+                                },
+                                {
+                                    "id": 21,
+                                    "__typename": "SimpleFacility",
+                                    "name": "Radio"
+                                },
+                                {
+                                    "name": "Chambre(s) communicante(s) disponible(s)",
+                                    "__typename": "SimpleFacility",
+                                    "id": 73
+                                },
+                                {
+                                    "name": "Chauffage",
+                                    "id": 40,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 75,
+                                    "name": "Télévision à écran plat"
+                                },
+                                {
+                                    "name": "Station d'accueil pour iPod",
+                                    "__typename": "SimpleFacility",
+                                    "id": 88
+                                },
+                                {
+                                    "name": "Fax",
+                                    "__typename": "SimpleFacility",
+                                    "id": 10
+                                },
+                                {
+                                    "name": "Très grands lits (> 2 mètres de long)",
+                                    "__typename": "SimpleFacility",
+                                    "id": 39
+                                },
+                                {
+                                    "name": "Minibar",
+                                    "id": 3,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 41,
+                                    "name": "Dressing"
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 70,
+                                    "name": "Moquette"
+                                },
+                                {
+                                    "name": "Bouilloire électrique",
+                                    "id": 86,
+                                    "__typename": "SimpleFacility"
+                                },
+                                {
+                                    "name": "Chaînes du câble",
+                                    "__typename": "SimpleFacility",
+                                    "id": 68
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 74,
+                                    "name": "Coffre-fort pour ordinateur portable"
+                                },
+                                {
+                                    "name": "Armoire ou penderie",
+                                    "__typename": "SimpleFacility",
+                                    "id": 95
+                                },
+                                {
+                                    "__typename": "SimpleFacility",
+                                    "id": 132,
+                                    "name": "Étages supérieurs accessibles par ascenseur"
+                                },
+                                {
+                                    "name": "Climatiseur indépendant dans les hébergements",
+                                    "__typename": "SimpleFacility",
+                                    "id": 230
+                                }
+                            ],
+                            "__typename": "FacilitiesWithCategory"
+                        }
+                    ],
+                    "__typename": "CategorizedFacilitiesForAllRooms"
+                }
+            ]
+        },
+        "reviewScores": {
+            "__typename": "ReviewScoresResult",
+            "reviewScores": [
+                {
+                    "__typename": "ReviewScore",
+                    "name": "bed_comfort",
+                    "translation": null,
+                    "count": 359,
+                    "value": 9.0444803237915,
+                    "customerType": "ALL"
+                }
+            ]
+        }
+    }
+}
